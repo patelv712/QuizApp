@@ -1,0 +1,101 @@
+<resources>
+
+    <string name="app_name">QuizApp</string>
+
+
+    <!-- Welcome Screen -->
+    <string name="welcome_quiz_app">Welcome to Quiz App, click the button to get started</string>
+    <string name="welcome_button">Get Started</string>
+    <!-- Login Screen -->
+    <string name="quiz_app_login_title">Quiz App</string>
+    <string name="quiz_app_description">Welcome to the VIP-ITS Quiz App. Test your knowledge today by logging in!</string>
+    <string name="login_tagline">powered by VIP-ITS</string>
+    <string name="login_username">Enter your username</string>
+    <string name="login_password">password</string>
+    <string name="login_logo_contentDescription">QuizApp Logo</string>
+    <string name="login_button">Login</string>
+    <string name="login_forgot_pass_button">Forgot Password</string>
+
+    <!-- Browse Quiz Screen -->
+    <string name="browse_quiz_title">Browse Quizzes</string>
+    <string name="browse_quiz_description">Select a Quiz:</string>
+    <string-array name="quizzes_list">
+        <item>Random Quiz</item>
+        <item>Quiz 1</item>
+        <item>Quiz 2</item>
+        <item>Recommended Quiz</item>
+        <item>Frequency Response</item>
+        <item>Discrete Fourier Series</item>
+        <item>Really hard quiz</item>
+        <item>needs review</item>
+    </string-array>
+    <string name="browse_quiz_1">Quiz 1</string>
+    <string name="browse_quiz_2">Quiz 2</string>
+    <string name="browse_quiz_recommended">Recommended Quiz</string>
+    <string name="browse_quiz_demo">Random Quiz</string>
+
+    <!-- Home Page Screen -->
+    <string name="home_title">Home</string>
+    <string name="home_analytics">Analytics</string>
+    <string name="home_log_out">Log Out</string>
+
+    <!-- Analytics Screen -->
+    <string name="analyticsTitle">Analytics</string>
+    <string name="historyLabel">History</string>
+    <string name="strongLabel">Strongest</string>
+    <string name="timeSpentLabel">Time Spent</string>
+    <string name="hintLabel">Hint</string>
+    <string name="accuracyPerQuestionLabel">Per Question</string>
+
+    <!-- Flashcard Screens -->
+    <string name="mock_back">Spectral, Time-Based, Dynamic Range</string>
+    <string name="mock_front">9 General Categories For Signal Processing</string>
+    <string name="Incorrect">Incorrect</string>
+    <string name="Correct">Correct</string>
+
+    <!-- Generic Button Names -->
+    <string name="Flip">Flip</string>
+    <string name="Back">Back</string>
+    <string name="Home">Home</string>
+    <string name="Submit">Submit</string>
+
+    <!--- Forget Password Screen -->
+    <string name="forget_password_description">Please Reset Your Password Below</string>
+    <string name="new_username">Username</string>
+    <string name="new_password">New Password</string>
+    <string name="new_username_repeat">Re-enter New Password</string>
+    <string name="browse_quizzes">BROWSE QUIZZES</string>
+    <string name="analytics">ANALYTICS</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="hello">Hello</string>
+    <string name="history_image">TODO</string>
+
+    <!-- Result Screen -->
+    <string name="save_results">Save Results</string>
+    <string name="Review">Review</string>
+    <string name="search">Search</string>
+    <string name="there">there</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="browse_files">Browse Files</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="select_birth_date">Select Birth Date</string>
+    <string name="school">School</string>
+    <string name="review">Review?</string>
+    <string name="flagged">Flagged</string>
+    <string name="enter_answer_here">Enter Answer Here</string>
+    <string name="help">Help</string>
+    <string name="question_will_be_displayed_here">Question will be displayed here</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

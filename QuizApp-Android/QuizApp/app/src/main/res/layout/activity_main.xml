@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout
+            android:layout_width="419dp"
+            android:layout_height="90dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="419dp"
+                android:layout_height="90dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#2196F3"
+                android:fontFamily="sans-serif-light"
+                android:gravity="left"
+                android:text="@string/home_title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <ImageView
+                android:id="@+id/profile_placeholder"
+                android:layout_width="123dp"
+                android:layout_height="66dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="13dp"
+                android:background="#2196F3"
+                android:contentDescription="@string/history_image"
+                android:gravity="right"
+                android:onClick="launchBrowseQuizzes"
+                app:srcCompat="@drawable/person"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+        </RelativeLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="23dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="181dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="22dp"
+                android:layout_height="200dp" />
+
+            <LinearLayout
+                android:layout_width="171dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/browse_screen_home_button"
+                    android:layout_width="147dp"
+                    android:layout_height="147dp"
+                    android:contentDescription="@string/history_image"
+                    android:onClick="launchBrowseQuizzes"
+                    app:srcCompat="@drawable/browse_button_image"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/browseQuizzesImageText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:foregroundTint="#FFFFFF"
+                    android:gravity="center"
+                    android:text="@string/browse_quizzes"
+                    android:textColor="@color/pastel_dark_green"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="137dp"
+                android:layout_height="143dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/analyticsImage"
+                    android:layout_width="157dp"
+                    android:layout_height="141dp"
+                    android:layout_weight="1"
+                    android:contentDescription="TODO"
+                    android:layoutDirection="rtl"
+                    android:onClick="launchAnalytics"
+                    app:srcCompat="@drawable/analytics_button_image" />
+
+                <TextView
+                    android:id="@+id/analyticsImageText"
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/analytics"
+                    android:textAlignment="center"
+                    android:textColor="@color/pastel_dark_green"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="28dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="167dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="295dp"
+                android:layout_height="157dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/logoutImage"
+                    android:layout_width="122dp"
+                    android:layout_height="130dp"
+                    android:contentDescription="@string/history_image"
+                    android:onClick="launchLoginScreen"
+                    app:srcCompat="@drawable/logout_button_image" />
+
+                <TextView
+                    android:id="@+id/logoutImageText"
+                    android:layout_width="124dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/log_out"
+                    android:textAlignment="center"
+                    android:textColor="@color/pastel_dark_green"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/outputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="141dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Home"
+                    android:layout_width="46dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/history_image"
+                    app:srcCompat="@drawable/home_icon" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="63dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/search_icon"
+                    android:layout_width="46dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/history_image"
+                    app:srcCompat="@drawable/search_icon" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="21dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/analytics_icon"
+                    android:layout_width="56dp"
+                    android:layout_height="87dp"
+                    android:background="@color/white"
+                    android:contentDescription="@string/history_image"
+                    android:onClick="launchAnalytics"
+                    app:srcCompat="@drawable/graph" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/settings_icon"
+                    android:layout_width="46dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/history_image"
+                    app:srcCompat="@drawable/settings_icon" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

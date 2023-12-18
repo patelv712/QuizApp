@@ -1,0 +1,131 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pastel_lime"
+    android:backgroundTint="@color/white">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="VIP ITS Quiz App"
+        android:background="#03A9F4"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="350dp"
+        android:layout_height="62dp"
+        android:background="@color/pastel_light_green"
+
+        android:text="Multiple Choice Question"
+        android:backgroundTint="#03A9F4"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:translationX="25dp"
+        android:translationY="120dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/pastel_middle_green"
+        android:backgroundTint="@color/pastel_middle_green"
+        android:translationX="50dp"
+        android:translationY="200dp">
+
+        <RadioButton
+            android:id="@+id/ans1radioButton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#03A9F4"
+            android:textColor="@color/black"
+            android:background="@color/pastel_middle_green"
+            android:text="ans1" />
+
+        <RadioButton
+            android:id="@+id/ans2radioButton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#03A9F4"
+            android:textColor="@color/black"
+            android:background="@color/pastel_middle_green"
+            android:text="ans2" />
+
+        <RadioButton
+            android:id="@+id/ans3radioButton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#03A9F4"
+            android:textColor="@color/black"
+            android:background="@color/pastel_middle_green"
+            android:text="ans3" />
+
+        <RadioButton
+            android:id="@+id/correctAnsradioButton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#03A9F4"
+            android:textColor="@color/black"
+            android:background="@color/pastel_middle_green"
+            android:text="correctAns" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#03A9F4"
+            android:background="#03A9F4"
+            android:textColor="@color/black"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/submitButtonSA"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pastel_dark_green"
+                android:text="Submit"
+                android:translationX="185dp"
+                android:translationY="509dp" />
+
+            <Button
+                android:id="@+id/helpButtonSA3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="@color/pastel_dark_green"
+                android:onClick="goToHelp"
+                android:text="Help"
+                android:translationX="60dp"
+                android:translationY="400dp"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="601dp" />
+
+        </LinearLayout>
+
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/mcqswitch"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="@string/Review"
+        android:textSize="17dp"
+        android:background="#03A9F4"
+        android:textColor="@color/black"
+        android:textOff="@string/Review"
+        android:textOn="@string/Review"
+        android:translationX="130dp"
+        android:translationY="570dp" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

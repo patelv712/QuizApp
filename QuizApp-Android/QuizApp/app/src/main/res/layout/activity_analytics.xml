@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnalyticsActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="@color/pastel_lime"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/analytics_title"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/pastel_dark_green"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/analyticsTitle"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/white"
+            android:textColorHint="@color/pastel_dark_green" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <TextView
+            android:id="@+id/historyLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/historyLabel" />
+
+        <ImageView
+            android:id="@+id/historyImage"
+            android:layout_width="359dp"
+            android:layout_height="131dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/history_image"
+            app:srcCompat="@drawable/history_image"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="184dp"
+                android:layout_height="114dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/strongImage"
+                    android:layout_width="95dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/strongLabel"
+                    app:srcCompat="@drawable/strength_image"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/strengthText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:foregroundTint="#FFFFFF"
+                    android:gravity="center"
+                    android:text="@string/strongLabel"
+                    android:textColor="@color/pastel_dark_green"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="121dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="118dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/timeSpentImage"
+                    android:layout_width="95dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/timeSpentLabel"
+                    android:layoutDirection="rtl"
+                    app:srcCompat="@drawable/time_spent" />
+
+                <TextView
+                    android:id="@+id/analyticsImageText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/timeSpentLabel"
+                    android:textAlignment="center"
+                    android:textColor="@color/pastel_dark_green"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="177dp"
+                android:layout_height="112dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/hintImage"
+                    android:layout_width="95dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/hintLabel"
+                    app:srcCompat="@drawable/hint"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/hintImageText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:foregroundTint="#FFFFFF"
+                    android:gravity="center"
+                    android:text="@string/hintLabel"
+                    android:textColor="@color/pastel_dark_green"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="112dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/accurAcyPerQuestionImage"
+                    android:layout_width="95dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/accuracyPerQuestionLabel"
+                    android:layoutDirection="rtl"
+                    app:srcCompat="@drawable/accuracy" />
+
+                <TextView
+                    android:id="@+id/accuracyPerQuestionImageText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/accuracyPerQuestionLabel"
+                    android:textAlignment="center"
+                    android:textColor="@color/pastel_dark_green"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="103dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/home_icon"
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/history_image"
+                    android:onClick="launchMain"
+                    app:srcCompat="@drawable/home_icon" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="63dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/search_icon"
+                    android:layout_width="46dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/history_image"
+                    app:srcCompat="@drawable/search_icon" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="21dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/analytics_icon"
+                    android:layout_width="56dp"
+                    android:layout_height="87dp"
+                    android:background="@color/white"
+                    android:contentDescription="@string/history_image"
+                    app:srcCompat="@drawable/graph" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/settings_icon"
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/history_image"
+                    android:onClick="launchLoginScreen"
+                    app:srcCompat="@drawable/settings_icon" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

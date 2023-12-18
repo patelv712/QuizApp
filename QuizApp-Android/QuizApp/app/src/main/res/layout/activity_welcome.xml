@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTintMode="screen">
+
+    <LinearLayout
+        android:id="@+id/login_logo_title"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        android:backgroundTint="#03A9F4"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/login_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="409dp"
+            android:layout_height="156dp"
+            android:background="#2196F3"
+            android:contentDescription="@string/quiz_app_login_title"
+            android:gravity="center"
+            android:text="@string/quiz_app_login_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="@color/black"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_content"
+        android:layout_width="410dp"
+        android:layout_height="375dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="150dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_logo_title">
+
+        <Space
+            android:id="@+id/login_description_spacer"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/login_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pastel_dark_green"
+            android:ems="10"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:labelFor="@id/login_description"
+            android:minHeight="48dp"
+            android:backgroundTint="#2196F3"
+            android:textColor="@color/black"
+            android:text="@string/welcome_quiz_app"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:ignore="TextContrastCheck" />
+
+        <Space
+            android:id="@+id/login_space_top"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_marginLeft="150dp"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
+            android:contentDescription="@string/welcome_button"
+            android:onClick="submitCredentials"
+            android:text="@string/welcome_button"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/pastel_dark_green"
+            android:textColorHint="@color/pastel_dark_green"
+            android:textColorLink="@color/pastel_dark_green"
+            app:iconTint="@color/pastel_dark_green"
+            app:strokeColor="@color/pastel_dark_green" />
+
+        <ImageView
+            android:id="@+id/quiz_logo"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:contentDescription="@string/login_logo_contentDescription"
+            app:srcCompat="@mipmap/quiz_app_logo_foreground"
+            tools:ignore="ImageContrastCheck"
+            tools:srcCompat="@mipmap/quiz_app_logo_foreground" />
+        <TextView
+            android:id="@+id/login_tagline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:ems="10"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:minHeight="48dp"
+            android:text="@string/login_tagline"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#455A64"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:ems="10"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"
+        android:text="@string/login_tagline"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_content"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

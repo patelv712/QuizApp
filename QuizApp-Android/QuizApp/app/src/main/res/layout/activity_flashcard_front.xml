@@ -1,0 +1,184 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@+id/cardView2"
+        app:layout_anchorGravity="top|center" />
+
+    <view
+        android:id="@+id/view"
+        class="androidx.cardview.widget.CardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="343dp"
+        android:layout_height="318dp"
+        android:contextClickable="false"
+
+
+        android:translationX="35dp"
+        android:translationY="150dp"
+        android:backgroundTint="#03A9F4"
+        android:textColor="@color/black"
+        android:visibility="visible"
+        app:cardBackgroundColor="@color/pastel_middle_green"
+        app:cardElevation="0dp"
+        app:cardUseCompatPadding="false"
+        app:layout_anchor="@+id/cardView"
+        app:layout_anchorGravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/frontText"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mock_front"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_anchor="@+id/cardView"
+        app:layout_anchorGravity="center" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="@string/quiz_app_login_title"
+        android:background="#2196F3"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/helpButtonSA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:onClick="goToHelp"
+            android:backgroundTint="#2196F3"
+            android:textColor="@color/black"
+            android:text="Help"
+            android:translationX="60dp"
+            android:translationY="547dp"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="601dp" />
+
+        <Button
+
+            android:id="@+id/flipButton"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
+            android:textColor="@color/black"
+            android:text="@string/Flip"
+            android:translationX="230dp"
+            android:translationY="500dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/home_icon"
+                    android:layout_width="46dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/history_image"
+                    android:onClick="launchHomeScreen"
+                    app:srcCompat="@drawable/home_icon" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="63dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/search_icon"
+                    android:layout_width="46dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/history_image"
+                    app:srcCompat="@drawable/search_icon" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="21dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/analytics_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="87dp"
+                    android:contentDescription="@string/history_image"
+                    android:onClick="launchAnalytics"
+                    app:srcCompat="@drawable/analytics_icon" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/settings_icon"
+                    android:layout_width="46dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/history_image"
+                    android:onClick="launchLoginScreen"
+                    app:srcCompat="@drawable/settings_icon" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

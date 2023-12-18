@@ -1,0 +1,76 @@
+OPINION,defined random number,1,"[{'start_char': 27, 'form': 'random numbers is defined', 'end_char': 52}]",0.7231558219549339
+ASPECT,matlab code,1,"[{'start_char': 137, 'form': 'MATLAB code', 'end_char': 148}]",0.4007447371109221
+ASPECT,random number,1,"[{'start_char': 27, 'form': 'random numbers', 'end_char': 41}]",0.34901452156144286
+ASPECT,as:<pre class,1,"[{'start_char': 63, 'form': 'as:<pre class', 'end_char': 76}]",0.34901452156144286
+ASPECT,matlab,2,"[{'start_char': 56, 'form': 'MATLAB', 'end_char': 62}, {'start_char': 77, 'form': 'MATLAB', 'end_char': 83}]",0.3282205544915682
+ASPECT,aa,1,"[{'start_char': 84, 'form': 'aa', 'end_char': 86}]",0.27347780012644607
+ASPECT,code,1,"[{'start_char': 182, 'form': 'code', 'end_char': 186}]",0.27347780012644607
+ASPECT,complex</b,1,"[{'start_char': 15, 'form': 'complex</b', 'end_char': 25}]",0.27347780012644607
+ASPECT,vector,1,"[{'start_char': 2, 'form': 'vector', 'end_char': 8}]",0.27347780012644607
+ASPECT,description,1,"[{'start_char': 158, 'form': 'description', 'end_char': 169}]",0.27347780012644607
+OPINION,correct match,1,"[{'start_char': 83, 'form': 'correct match', 'end_char': 96}]",1.0
+ASPECT,signal,2,"[{'start_char': 8, 'form': 'signal', 'end_char': 14}, {'start_char': 107, 'form': 'signals', 'end_char': 114}]",0.4398923742511083
+ASPECT,match,1,"[{'start_char': 91, 'form': 'match', 'end_char': 96}]",0.3354403842851843
+ASPECT,div,1,"[{'start_char': 16, 'form': 'div', 'end_char': 19}]",0.28941318667986754
+ASPECT,t)</latex></div,1,"[{'start_char': 57, 'form': 't)</latex></div', 'end_char': 72}]",0.28941318667986754
+OPINION,correct match,1,"[{'start_char': 90, 'form': 'correct match', 'end_char': 103}]",1.0
+ASPECT,signal,2,"[{'start_char': 8, 'form': 'signal', 'end_char': 14}, {'start_char': 114, 'form': 'signals', 'end_char': 121}]",0.4398923742511083
+ASPECT,div class,1,"[{'start_char': 16, 'form': 'DIV class', 'end_char': 25}]",0.41000699210665814
+ASPECT,match,1,"[{'start_char': 98, 'form': 'match', 'end_char': 103}]",0.3354403842851843
+ASPECT,real part</b,1,"[{'start_char': 17, 'form': 'Real part</b', 'end_char': 29}]",0.4958925737338973
+ASPECT,font color,1,"[{'start_char': 202, 'form': 'FONT color', 'end_char': 212}]",0.42801460518963796
+ASPECT,numerical answer.</font></li,1,"[{'start_char': 217, 'form': 'numerical answer.</FONT></LI', 'end_char': 245}]",0.42801460518963796
+ASPECT,ul class,1,"[{'start_char': 165, 'form': 'UL class', 'end_char': 173}]",0.42801460518963796
+ASPECT,latex,2,"[{'start_char': 35, 'form': 'latex', 'end_char': 40}, {'start_char': 59, 'form': 'latex', 'end_char': 64}]",0.3833771276144288
+ASPECT,li,1,"[{'start_char': 191, 'form': 'LI', 'end_char': 193}]",0.3774157317859156
+ASPECT,red,1,"[{'start_char': 213, 'form': 'red', 'end_char': 216}]",0.32635389890852967
+ASPECT,word,1,"[{'start_char': 117, 'form': 'words', 'end_char': 122}]",0.27702714887354685
+ASPECT,br><br,1,"[{'start_char': 96, 'form': 'br><br', 'end_char': 102}]",0.27702714887354685
+ASPECT,j0.{{y}}</latex,1,"[{'start_char': 77, 'form': 'j0.{{y}}</latex', 'end_char': 92}]",0.27702714887354685
+OPINION,complex number,1,"[{'start_char': 61, 'form': 'complex number', 'end_char': 75}]",0.6154941971596302
+ASPECT,real part</b,1,"[{'start_char': 17, 'form': 'Real part</b', 'end_char': 29}]",0.4958925737338973
+ASPECT,numerical answer,1,"[{'start_char': 215, 'form': 'numerical answer', 'end_char': 231}]",0.3816440461945454
+ASPECT,b><font color,1,"[{'start_char': 197, 'form': 'B><FONT color', 'end_char': 210}]",0.3554012735928402
+ASPECT,< latex,1,"[{'start_char': 34, 'form': '<latex', 'end_char': 40}]",0.3554012735928402
+ASPECT,decimal digit,1,"[{'start_char': 241, 'form': 'decimal digits', 'end_char': 255}]",0.3554012735928402
+ASPECT,red,1,"[{'start_char': 211, 'form': 'red', 'end_char': 214}]",0.32635389890852967
+ASPECT,number,1,"[{'start_char': 69, 'form': 'number', 'end_char': 75}]",0.28522442899436296
+ASPECT,its_note_units><li,1,"[{'start_char': 170, 'form': 'ITS_note_units><LI', 'end_char': 188}]",0.2757770308577491
+ASPECT,j</latex,1,"[{'start_char': 41, 'form': 'j</latex', 'end_char': 49}]",0.2757770308577491
+OPINION,complex conjugate</li,1,"[{'start_char': 168, 'form': 'complex conjugate</li', 'end_char': 189}]",0.6154941971596302
+ASPECT,real part</b,1,"[{'start_char': 17, 'form': 'Real part</b', 'end_char': 29}]",0.4958925737338973
+ASPECT,font color,1,"[{'start_char': 203, 'form': 'FONT color', 'end_char': 213}]",0.42801460518963796
+ASPECT,numerical answer.</font></li,1,"[{'start_char': 218, 'form': 'numerical answer.</FONT></LI', 'end_char': 246}]",0.42801460518963796
+ASPECT,ul class,1,"[{'start_char': 106, 'form': 'ul class', 'end_char': 114}]",0.42801460518963796
+ASPECT,latex,2,"[{'start_char': 35, 'form': 'latex', 'end_char': 40}, {'start_char': 66, 'form': 'latex', 'end_char': 71}]",0.3833771276144288
+ASPECT,li,2,"[{'start_char': 132, 'form': 'li', 'end_char': 134}, {'start_char': 192, 'form': 'LI', 'end_char': 194}]",0.3774157317859156
+ASPECT,jz^{\ast}</latex >,1,"[{'start_char': 41, 'form': 'jz^{\\ast}</latex>', 'end_char': 58}]",0.3348735959553426
+ASPECT,red,1,"[{'start_char': 214, 'form': 'red', 'end_char': 217}]",0.32635389890852967
+ASPECT,star,1,"[{'start_char': 135, 'form': 'Star', 'end_char': 139}]",0.26838706690825
+ASPECT,"id=""single_image",1,"[{'start_char': 12, 'form': 'id=""single_image', 'end_char': 28}]",0.2928926344476427
+ASPECT,conjugate</a,1,"[{'start_char': 123, 'form': 'conjugate</a', 'end_char': 135}]",0.2928926344476427
+ASPECT,sp1figures,1,"[{'start_char': 44, 'form': 'SP1Figures', 'end_char': 54}]",0.2928926344476427
+ASPECT,appa,1,"[{'start_char': 55, 'form': 'AppA', 'end_char': 59}]",0.2928926344476427
+ASPECT,"href=""spfirst",1,"[{'start_char': 30, 'form': 'href=""SPFIRST', 'end_char': 43}]",0.2928926344476427
+OPINION,assigned vectors</b >,1,"[{'start_char': 37, 'form': 'vectors</B> are assigned', 'end_char': 61}]",0.5790033198795844
+OPINION,complex value,1,"[{'start_char': 62, 'form': 'complex values', 'end_char': 76}]",0.5028750549132635
+ASPECT,matlab code,1,"[{'start_char': 17, 'form': 'MATLAB code', 'end_char': 28}]",0.4007447371109221
+ASPECT,b><tt > ans</tt></b,1,"[{'start_char': 287, 'form': 'B><TT>ans</TT></B', 'end_char': 304}]",0.33552055927336977
+ASPECT,matlab,1,"[{'start_char': 121, 'form': 'MATLAB', 'end_char': 127}]",0.3282205544915682
+ASPECT,value,3,"[{'start_char': 70, 'form': 'values', 'end_char': 76}, {'start_char': 264, 'form': 'value', 'end_char': 269}, {'start_char': 326, 'form': 'value', 'end_char': 331}]",0.31918740849929017
+ASPECT,row vector,1,"[{'start_char': 213, 'form': 'row vector', 'end_char': 223}]",0.31265414818965837
+ASPECT,pre class,1,"[{'start_char': 111, 'form': 'PRE class', 'end_char': 120}]",0.31265414818965837
+ASPECT,unassigned computation,1,"[{'start_char': 339, 'form': 'unassigned computation', 'end_char': 361}]",0.31265414818965837
+ASPECT,integer number.</li></ul,1,"[{'start_char': 443, 'form': 'integer number.</li></ul', 'end_char': 467}]",0.31265414818965837
+ASPECT,value of sines,1,"[{'start_char': 20, 'form': 'values of sines', 'end_char': 35}]",0.5790033198795844
+ASPECT,cosine,1,"[{'start_char': 40, 'form': 'cosines', 'end_char': 47}]",0.3288675921331015
+OPINION,significant digit,1,"[{'start_char': 559, 'form': 'significant digits', 'end_char': 577}]",0.6154941971596302
+ASPECT,latex,2,"[{'start_char': 115, 'form': 'latex', 'end_char': 120}, {'start_char': 405, 'form': 'latex', 'end_char': 410}]",0.3833771276144288
+ASPECT,numerical answer,1,"[{'start_char': 368, 'form': 'numerical answers', 'end_char': 385}]",0.3816440461945454
+ASPECT,li,4,"[{'start_char': 508, 'form': 'li', 'end_char': 510}, {'start_char': 590, 'form': 'li', 'end_char': 592}, {'start_char': 675, 'form': 'li', 'end_char': 677}, {'start_char': 766, 'form': 'li', 'end_char': 768}]",0.3774157317859156
+ASPECT,answer,3,"[{'start_char': 515, 'form': 'answer', 'end_char': 521}, {'start_char': 681, 'form': 'answer', 'end_char': 687}, {'start_char': 772, 'form': 'answer', 'end_char': 778}]",0.3044656061424948
+ASPECT,sum of sinusoids,1,"[{'start_char': 26, 'form': 'sum of sinusoids', 'end_char': 42}]",0.29858521451744574
+ASPECT,phase,3,"[{'start_char': 195, 'form': 'phase', 'end_char': 200}, {'start_char': 425, 'form': 'phase', 'end_char': 430}, {'start_char': 787, 'form': 'phase', 'end_char': 792}]",0.2880232113614793
+ASPECT,number,1,"[{'start_char': 741, 'form': 'number', 'end_char': 747}]",0.28522442899436296
+ASPECT,a\cos(\omega t,1,"[{'start_char': 121, 'form': 'A\\cos(\\omega t', 'end_char': 135}]",0.2837984100990927
+ASPECT,following signal,1,"[{'start_char': 4, 'form': 'following signal', 'end_char': 20}]",0.2837984100990927

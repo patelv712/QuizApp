@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:backgroundTint="#2196F3">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/pastel_lime"
+        android:backgroundTint="@color/white"
+        android:backgroundTintMode="src_in"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/browse_quiz_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:gravity="center"
+            android:text="@string/browse_quiz_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="9dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+
+            <SearchView
+                android:id="@+id/search_bar"
+                android:layout_width="385dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/search_bar_box"
+                android:contextClickable="true"
+                android:focusable="true"
+                android:iconifiedByDefault="false"
+                android:queryHint="Search for a quiz"
+                android:visibility="visible">
+            </SearchView>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="569dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/browse_quiz_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@color/white"
+                    android:backgroundTint="#2196F3"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:text="@string/browse_quiz_description"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp" />
+
+                <Button
+                    android:id="@+id/browse_quiz_button_demo"
+                    android:layout_width="match_parent"
+                    android:layout_height="96dp"
+                    android:backgroundTint="#2196F3"
+                    android:onClick="sendReqAndLaunchRandomQuiz"
+                    android:text="@string/browse_quiz_demo"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/browse_quiz_button_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="93dp"
+                    android:backgroundTint="#2196F3"
+                    android:textColor="@color/black"
+                    android:onClick="requestQuizAppQuiz"
+                    android:text="@string/browse_quiz_1" />
+
+                <Button
+                    android:id="@+id/browse_quiz_button_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:backgroundTint="#2196F3"
+                    android:onClick="loadQuiz"
+                    android:textColor="@color/black"
+                    android:text="@string/browse_quiz_2" />
+
+                <Button
+                    android:id="@+id/browse_quiz_button_recommended"
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:backgroundTint="#2196F3"
+                    android:onClick="sendReqAndLaunchRecommendedQuiz"
+                    android:text="@string/browse_quiz_recommended"
+                    android:textColor="@color/black"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/browse_screen_home_button"
+                        android:layout_width="163dp"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="#2196F3"
+                        android:onClick="goToHome"
+                        android:textColor="@color/black"
+                        android:text="@string/Home" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ListView
+                    android:id="@+id/search_list"
+                    android:layout_width="385dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,353 @@
+ASPECT,multimedia information system,1,"[{'start_char': 0, 'form': 'Multimedia information systems', 'end_char': 30}]",0.5119542323522642
+ASPECT,step,1,"[{'start_char': 9, 'form': 'Step', 'end_char': 13}]",0.3313542006476158
+ASPECT,signal,3,"[{'start_char': 215, 'form': 'signals', 'end_char': 222}, {'start_char': 753, 'form': 'signal', 'end_char': 759}, {'start_char': 951, 'form': 'signal', 'end_char': 957}]",1.0
+ASPECT,system,4,"[{'start_char': 312, 'form': 'system', 'end_char': 318}, {'start_char': 428, 'form': 'systems', 'end_char': 435}, {'start_char': 523, 'form': 'systems', 'end_char': 530}, {'start_char': 1287, 'form': 'systems', 'end_char': 1294}]",0.9415417008387491
+ASPECT,cd audio system,1,"[{'start_char': 29, 'form': 'CD audio system', 'end_char': 44}]",0.8306878877813795
+ASPECT,time system,1,"[{'start_char': 77, 'form': 'time system', 'end_char': 88}]",0.7994195466028304
+OPINION,complex system,1,"[{'start_char': 304, 'form': 'complex system', 'end_char': 318}]",0.6623403790038245
+ASPECT,time signal,1,"[{'start_char': 411, 'form': 'time signals', 'end_char': 423}]",0.5170429026619572
+OPINION,good example,1,"[{'start_char': 50, 'form': 'good example', 'end_char': 62}]",0.460307996647638
+ASPECT,example,1,"[{'start_char': 55, 'form': 'example', 'end_char': 62}]",0.4244054195388796
+OPINION,complicated system,1,"[{'start_char': 511, 'form': 'complicated systems', 'end_char': 530}]",0.324088812133684
+OPINION,solid understanding,1,"[{'start_char': 1191, 'form': 'solid understanding', 'end_char': 1210}]",0.324088812133684
+ASPECT,introduction,1,"[{'start_char': 0, 'form': 'Introduction', 'end_char': 12}]",0.3172967888346072
+ASPECT,signal,1,"[{'start_char': 95, 'form': 'signals', 'end_char': 102}]",1.0
+ASPECT,system,2,"[{'start_char': 107, 'form': 'systems', 'end_char': 114}, {'start_char': 185, 'form': 'systems', 'end_char': 192}]",0.9415417008387491
+ASPECT,"span class=""bold",2,"[{'start_char': 344, 'form': 'span class=""bold', 'end_char': 360}, {'start_char': 391, 'form': 'span class=""bold', 'end_char': 407}]",0.5077338888476739
+ASPECT,age of multimedia computers,1,"[{'start_char': 125, 'form': 'age of multimedia computers', 'end_char': 152}]",0.32003318520977864
+ASPECT,term,2,"[{'start_char': 337, 'form': 'terms', 'end_char': 342}, {'start_char': 460, 'form': 'terms', 'end_char': 465}]",0.3094886497998251
+ASPECT,"h3><span class=""chapter text",1,"[{'start_char': 1, 'form': 'h3><span class=""chapter text', 'end_char': 29}]",0.3042518451377103
+ASPECT,digital communication system,1,"[{'start_char': 198, 'form': 'digital communication systems', 'end_char': 227}]",0.3042518451377103
+ASPECT,br > introduction</h3,1,"[{'start_char': 48, 'form': 'br> Introduction</h3', 'end_char': 68}]",0.3042518451377103
+ASPECT,daily conversation,1,"[{'start_char': 475, 'form': 'daily conversation', 'end_char': 493}]",0.2904431725746505
+ASPECT,video entertainment,1,"[{'start_char': 164, 'form': 'video entertainment', 'end_char': 183}]",0.2904431725746505
+ASPECT,signal,1,"[{'start_char': 0, 'form': 'Signals', 'end_char': 7}]",1.0
+ASPECT,signal,4,"[{'start_char': 145, 'form': 'signal', 'end_char': 151}, {'start_char': 379, 'form': 'signals', 'end_char': 386}, {'start_char': 439, 'form': 'signals', 'end_char': 446}, {'start_char': 532, 'form': 'signals', 'end_char': 539}]",1.0
+ASPECT,speech signal,1,"[{'start_char': 607, 'form': 'speech signal', 'end_char': 620}]",0.45018187359811035
+OPINION,produced speech signal,1,"[{'start_char': 607, 'form': 'speech signal is produced', 'end_char': 632}]",0.43263062164216426
+ASPECT,example,3,"[{'start_char': 116, 'form': 'example', 'end_char': 123}, {'start_char': 354, 'form': 'Examples', 'end_char': 362}, {'start_char': 596, 'form': 'example', 'end_char': 603}]",0.4244054195388796
+OPINION,important point,1,"[{'start_char': 508, 'form': 'important point', 'end_char': 523}]",0.3907390917187552
+ASPECT,speech,1,"[{'start_char': 371, 'form': 'speech', 'end_char': 377}]",0.34945181183609386
+ASPECT,video,1,"[{'start_char': 403, 'form': 'video', 'end_char': 408}]",0.33958687141975524
+ASPECT,pattern,1,"[{'start_char': 236, 'form': 'pattern', 'end_char': 243}]",0.32875957646212123
+ASPECT,acoustic signal,1,"[{'start_char': 640, 'form': 'acoustic signal', 'end_char': 655}]",0.31126657071639063
+ASPECT,term,1,"[{'start_char': 54, 'form': 'terms', 'end_char': 59}]",0.3094886497998251
+ASPECT,system,1,"[{'start_char': 0, 'form': 'Systems', 'end_char': 7}]",0.9415417008387491
+ASPECT,signal,4,"[{'start_char': 440, 'form': 'signals', 'end_char': 447}, {'start_char': 560, 'form': 'signals', 'end_char': 567}, {'start_char': 795, 'form': 'signal', 'end_char': 801}, {'start_char': 912, 'form': 'signals', 'end_char': 919}]",1.0
+ASPECT,system,3,"[{'start_char': 470, 'form': 'system', 'end_char': 476}, {'start_char': 698, 'form': 'system', 'end_char': 704}, {'start_char': 857, 'form': 'systems', 'end_char': 864}]",0.9415417008387491
+ASPECT,"span class=""bold",2,"[{'start_char': 10, 'form': 'span class=""bold', 'end_char': 26}, {'start_char': 866, 'form': 'span class=""bold', 'end_char': 882}]",0.5077338888476739
+OPINION,compact disk,1,"[{'start_char': 591, 'form': 'compact disk', 'end_char': 603}]",0.45271066258602083
+ASPECT,example,2,"[{'start_char': 120, 'form': 'example', 'end_char': 127}, {'start_char': 573, 'form': 'example', 'end_char': 580}]",0.4244054195388796
+ASPECT,sequence of numbers,1,"[{'start_char': 659, 'form': 'sequence of numbers', 'end_char': 678}]",0.31799194549893683
+ASPECT,acoustic signal,1,"[{'start_char': 809, 'form': 'acoustic signal', 'end_char': 824}]",0.31126657071639063
+ASPECT,term,1,"[{'start_char': 4, 'form': 'term', 'end_char': 8}]",0.3094886497998251
+ASPECT,cd player,1,"[{'start_char': 682, 'form': 'CD player', 'end_char': 691}]",0.30417646760227
+ASPECT,new signal,1,"[{'start_char': 932, 'form': 'new signals', 'end_char': 943}]",0.3004498512743842
+ASPECT,signal,2,"[{'start_char': 110, 'form': 'signals', 'end_char': 117}, {'start_char': 387, 'form': 'signals', 'end_char': 394}]",1.0
+ASPECT,system,5,"[{'start_char': 123, 'form': 'systems', 'end_char': 130}, {'start_char': 253, 'form': 'systems', 'end_char': 260}, {'start_char': 324, 'form': 'systems', 'end_char': 331}, {'start_char': 399, 'form': 'systems', 'end_char': 406}, {'start_char': 453, 'form': 'systems', 'end_char': 460}]",0.9415417008387491
+OPINION,precise statement,1,"[{'start_char': 80, 'form': 'precise statements', 'end_char': 98}]",0.3907390917187552
+OPINION,appropriate language,1,"[{'start_char': 186, 'form': 'appropriate language', 'end_char': 206}]",0.3907390917187552
+ASPECT,representation of signals,1,"[{'start_char': 293, 'form': 'representation of signals', 'end_char': 318}]",0.3061212094532
+ASPECT,mathematical equation,1,"[{'start_char': 335, 'form': 'mathematical equations', 'end_char': 357}]",0.29190361344612686
+ASPECT,understanding signal,1,"[{'start_char': 226, 'form': 'understanding signals', 'end_char': 247}]",0.29190361344612686
+ASPECT,prescribed purpose,1,"[{'start_char': 476, 'form': 'prescribed purpose', 'end_char': 494}]",0.29190361344612686
+ASPECT,text,1,"[{'start_char': 17, 'form': 'text', 'end_char': 21}]",0.28004370039221216
+ASPECT,mathematic,1,"[{'start_char': 167, 'form': 'mathematics', 'end_char': 178}]",0.27195780201276615
+ASPECT,cd audio system,1,"[{'start_char': 0, 'form': 'CD audio system', 'end_char': 15}]",0.8306878877813795
+ASPECT,conversion,1,"[{'start_char': 27, 'form': 'conversion', 'end_char': 37}]",0.33162202197814944
+ASPECT,analog,1,"[{'start_char': 0, 'form': 'Analog', 'end_char': 6}]",0.3139253404454224
+ASPECT,converter,1,"[{'start_char': 8, 'form': 'converter', 'end_char': 17}]",0.41321747145272664
+ASPECT,system,1,"[{'start_char': 15, 'form': 'Systems', 'end_char': 22}]",0.9415417008387491
+ASPECT,system,1,"[{'start_char': 85, 'form': 'systems', 'end_char': 92}]",0.9415417008387491
+ASPECT,block diagram,3,"[{'start_char': 34, 'form': 'Block diagrams', 'end_char': 48}, {'start_char': 237, 'form': 'block diagram', 'end_char': 250}, {'start_char': 331, 'form': 'block diagram', 'end_char': 344}]",0.7815275143848937
+OPINION,complex system,1,"[{'start_char': 77, 'form': 'complex systems', 'end_char': 92}]",0.6623403790038245
+ASPECT,d converter,6,"[{'start_char': 513, 'form': 'D converter', 'end_char': 524}, {'start_char': 683, 'form': 'D converter', 'end_char': 694}, {'start_char': 824, 'form': 'D converter', 'end_char': 835}, {'start_char': 907, 'form': 'D converters', 'end_char': 919}, {'start_char': 985, 'form': 'D converter', 'end_char': 996}, {'start_char': 1020, 'form': 'D converter', 'end_char': 1031}]",0.5884194574539753
+ASPECT,audio system,1,"[{'start_char': 938, 'form': 'audio systems', 'end_char': 951}]",0.47532879506401327
+ASPECT,example,1,"[{'start_char': 163, 'form': 'example', 'end_char': 170}]",0.4244054195388796
+OPINION,limited number of bits,1,"[{'start_char': 778, 'form': 'limited number of bits', 'end_char': 800}]",0.3979104546665103
+OPINION,useful block diagram,1,"[{'start_char': 34, 'form': 'Block diagrams are useful for', 'end_char': 63}]",0.36655366070309564
+OPINION,quantized sample value,1,"[{'start_char': 1106, 'form': 'quantized sample values', 'end_char': 1129}]",0.36655366070309564
+OPINION,very important distinction,1,"[{'start_char': 1052, 'form': 'distinction is very important.', 'end_char': 1082}]",0.36655366070309564
+ASPECT,cd audio system,1,"[{'start_char': 0, 'form': 'CD audio system', 'end_char': 15}]",0.8306878877813795
+ASPECT,block diagram,1,"[{'start_char': 17, 'form': 'block diagram', 'end_char': 30}]",0.7815275143848937
+ASPECT,block diagram,1,"[{'start_char': 50, 'form': 'block diagram', 'end_char': 63}]",0.7815275143848937
+OPINION,simplified block diagram,1,"[{'start_char': 39, 'form': 'Simplified block diagram', 'end_char': 63}]",0.5119542323522642
+ASPECT,chapter01,1,"[{'start_char': 0, 'form': 'Chapter01', 'end_char': 9}]",0.44709957435308756
+ASPECT,art,1,"[{'start_char': 10, 'form': 'art', 'end_char': 13}]",0.422118104221869
+ASPECT,audio cd,1,"[{'start_char': 98, 'form': 'audio CD', 'end_char': 106}]",0.36453290898095964
+ASPECT,playback,1,"[{'start_char': 83, 'form': 'playback', 'end_char': 91}]",0.2925982225619952
+ASPECT,recording,1,"[{'start_char': 69, 'form': 'recording', 'end_char': 78}]",0.2879572566822449
+ASPECT,signal,1,"[{'start_char': 807, 'form': 'signal', 'end_char': 813}]",1.0
+ASPECT,system,4,"[{'start_char': 476, 'form': 'system', 'end_char': 482}, {'start_char': 888, 'form': 'system', 'end_char': 894}, {'start_char': 949, 'form': 'system', 'end_char': 955}, {'start_char': 1134, 'form': 'systems', 'end_char': 1141}]",0.9415417008387491
+ASPECT,block diagram,1,"[{'start_char': 251, 'form': 'block diagram', 'end_char': 264}]",0.7815275143848937
+ASPECT,time signal,1,"[{'start_char': 1095, 'form': 'time signal', 'end_char': 1106}]",0.5170429026619572
+ASPECT,"div class=""row clearboth",1,"[{'start_char': 1, 'form': 'div class=""row clearBoth', 'end_char': 25}]",0.500790245621883
+ASPECT,"div class=""caption text",1,"[{'start_char': 197, 'form': 'div class=""caption text', 'end_char': 220}]",0.500790245621883
+ASPECT,chapter01,1,"[{'start_char': 116, 'form': 'Chapter01', 'end_char': 125}]",0.44709957435308756
+ASPECT,"div class=""thumbnail",1,"[{'start_char': 39, 'form': 'div class=""thumbnail', 'end_char': 59}]",0.44398879795291046
+ASPECT,center text,1,"[{'start_char': 221, 'form': 'center text', 'end_char': 232}]",0.44398879795291046
+ASPECT,"img id=""fig",1,"[{'start_char': 75, 'form': 'img id=""fig', 'end_char': 86}]",0.44398879795291046
+ASPECT,audio system,1,"[{'start_char': 0, 'form': 'Audio system', 'end_char': 12}]",0.47532879506401327
+ASPECT,system,3,"[{'start_char': 111, 'form': 'systems', 'end_char': 118}, {'start_char': 193, 'form': 'system', 'end_char': 199}, {'start_char': 628, 'form': 'system', 'end_char': 634}]",0.9415417008387491
+ASPECT,cd audio system,2,"[{'start_char': 18, 'form': 'CD audio system', 'end_char': 33}, {'start_char': 374, 'form': 'CD audio system', 'end_char': 389}]",0.8306878877813795
+OPINION,complex system,1,"[{'start_char': 185, 'form': 'complex system', 'end_char': 199}]",0.6623403790038245
+ASPECT,example,2,"[{'start_char': 134, 'form': 'example', 'end_char': 141}, {'start_char': 783, 'form': 'example', 'end_char': 790}]",0.4244054195388796
+OPINION,important issue,1,"[{'start_char': 425, 'form': 'important issue', 'end_char': 440}]",0.405232515516704
+ASPECT,conversion,1,"[{'start_char': 449, 'form': 'conversion', 'end_char': 459}]",0.33162202197814944
+ASPECT,systems,1,"[{'start_char': 1, 'form': 'Systems', 'end_char': 8}]",0.31185091632649997
+ASPECT,value of thinking,1,"[{'start_char': 158, 'form': 'value of thinking', 'end_char': 175}]",0.2943568173834145
+ASPECT,optical disk subsystem,1,"[{'start_char': 838, 'form': 'optical disk subsystems', 'end_char': 861}]",0.2943568173834145
+ASPECT,whole system,1,"[{'start_char': 341, 'form': 'whole system', 'end_char': 353}]",0.28271268214160694
+ASPECT,signal,1,"[{'start_char': 0, 'form': 'Signals', 'end_char': 7}]",1.0
+ASPECT,signal,1,"[{'start_char': 31, 'form': 'Signals', 'end_char': 38}]",1.0
+ASPECT,mathematical representation,1,"[{'start_char': 0, 'form': 'Mathematical Representation', 'end_char': 27}]",0.6416144244087119
+ASPECT,signal,1,"[{'start_char': 50, 'form': 'Signals', 'end_char': 57}]",1.0
+ASPECT,mathematical representation,1,"[{'start_char': 4, 'form': 'Mathematical Representation', 'end_char': 31}]",0.6416144244087119
+ASPECT,pattern of variations,1,"[{'start_char': 62, 'form': 'patterns of variations', 'end_char': 84}]",0.39125632099223306
+ASPECT,physical system,1,"[{'start_char': 183, 'form': 'physical systems', 'end_char': 199}]",0.3278498059391581
+ASPECT,central role,1,"[{'start_char': 136, 'form': 'central role', 'end_char': 148}]",0.3078159692543675
+ASPECT,h3,1,"[{'start_char': 1, 'form': 'h3', 'end_char': 3}]",0.28491304433663867
+ASPECT,information,1,"[{'start_char': 111, 'form': 'information', 'end_char': 122}]",0.27597890054616814
+ASPECT,telecommunication,1,"[{'start_char': 232, 'form': 'telecommunication', 'end_char': 249}]",0.265134699235212
+ASPECT,area,1,"[{'start_char': 270, 'form': 'areas', 'end_char': 275}]",0.265134699235212
+ASPECT,signals</h3,1,"[{'start_char': 35, 'form': 'Signals</h3', 'end_char': 46}]",0.265134699235212
+ASPECT,time-waveform,1,"[{'start_char': 0, 'form': 'Time-waveform', 'end_char': 13}]",0.3172967888346072
+ASPECT,signal,1,"[{'start_char': 5, 'form': 'signals', 'end_char': 12}]",1.0
+ASPECT,"span class=""bold",1,"[{'start_char': 270, 'form': 'span class=""bold', 'end_char': 286}]",0.5077338888476739
+OPINION,good example,1,"[{'start_char': 78, 'form': 'good example', 'end_char': 90}]",0.460307996647638
+ASPECT,speech signal,1,"[{'start_char': 96, 'form': 'speech signal', 'end_char': 109}]",0.45018187359811035
+OPINION,naturally thought signal,1,"[{'start_char': 5, 'form': 'signals are naturally thought', 'end_char': 34}]",0.4406733524730362
+ASPECT,example,1,"[{'start_char': 83, 'form': 'example', 'end_char': 90}]",0.4244054195388796
+ASPECT,pattern of variations,1,"[{'start_char': 43, 'form': 'pattern of variations', 'end_char': 64}]",0.39125632099223306
+ASPECT,intro,1,"[{'start_char': 361, 'form': 'intro', 'end_char': 366}]",0.3660576394006303
+ASPECT,air pressure,1,"[{'start_char': 160, 'form': 'air pressure', 'end_char': 172}]",0.3305404766612222
+ASPECT,pattern,2,"[{'start_char': 140, 'form': 'pattern', 'end_char': 147}, {'start_char': 199, 'form': 'pattern', 'end_char': 206}]",0.32875957646212123
+ASPECT,signal,1,"[{'start_char': 0, 'form': 'Signals', 'end_char': 7}]",1.0
+ASPECT,speech,1,"[{'start_char': 9, 'form': 'speech', 'end_char': 15}]",0.34945181183609386
+ASPECT,signal,1,"[{'start_char': 69, 'form': 'signal', 'end_char': 75}]",1.0
+ASPECT,"fig.~<a class=""flink",1,"[{'start_char': 194, 'form': 'Fig.~<a class=""flink', 'end_char': 214}]",0.46650079356881424
+ASPECT,speech signal,1,"[{'start_char': 49, 'form': 'speech signal', 'end_char': 62}]",0.45018187359811035
+ASPECT,chapter01,1,"[{'start_char': 0, 'form': 'Chapter01', 'end_char': 9}]",0.44709957435308756
+ASPECT,shaded region,1,"[{'start_char': 152, 'form': 'shaded region', 'end_char': 165}]",0.4441517837852933
+ASPECT,function,1,"[{'start_char': 102, 'form': 'function', 'end_char': 110}]",0.43187992325537294
+ASPECT,art,1,"[{'start_char': 10, 'form': 'art', 'end_char': 13}]",0.422118104221869
+ASPECT,variable,1,"[{'start_char': 130, 'form': 'variable', 'end_char': 138}]",0.32758800016886
+ASPECT,plot,1,"[{'start_char': 30, 'form': 'Plot', 'end_char': 34}]",0.3062260675544458
+ASPECT,"dtsig"">&#8251;</a",1,"[{'start_char': 231, 'form': 'dtsig"">&#8251;</a', 'end_char': 248}]",0.27873899407988745
+ASPECT,signal,1,"[{'start_char': 278, 'form': 'signal', 'end_char': 284}]",1.0
+ASPECT,"div class=""caption text",1,"[{'start_char': 196, 'form': 'div class=""caption text', 'end_char': 219}]",0.500790245621883
+ASPECT,"div class=""row clearboth",1,"[{'start_char': 1, 'form': 'div class=""row clearBoth', 'end_char': 25}]",0.500790245621883
+ASPECT,"fig.~<a class=""flink",1,"[{'start_char': 405, 'form': 'Fig.~<a class=""flink', 'end_char': 425}]",0.46650079356881424
+ASPECT,speech signal,1,"[{'start_char': 258, 'form': 'speech signal', 'end_char': 271}]",0.45018187359811035
+ASPECT,chapter01,1,"[{'start_char': 124, 'form': 'Chapter01', 'end_char': 133}]",0.44709957435308756
+ASPECT,shaded region,1,"[{'start_char': 363, 'form': 'shaded region', 'end_char': 376}]",0.4441517837852933
+ASPECT,"div class=""thumbnail",1,"[{'start_char': 39, 'form': 'div class=""thumbnail', 'end_char': 59}]",0.44398879795291046
+ASPECT,center text,1,"[{'start_char': 220, 'form': 'center text', 'end_char': 231}]",0.44398879795291046
+ASPECT,"img id=""fig",1,"[{'start_char': 75, 'form': 'img id=""fig', 'end_char': 86}]",0.44398879795291046
+ASPECT,signal,1,"[{'start_char': 0, 'form': 'Signals', 'end_char': 7}]",1.0
+ASPECT,"fig.~<a class=""flink",1,"[{'start_char': 21, 'form': 'Fig.~<a class=""flink', 'end_char': 41}]",0.46650079356881424
+ASPECT,speech signal,1,"[{'start_char': 4, 'form': 'speech signal', 'end_char': 17}]",0.45018187359811035
+ASPECT,function,3,"[{'start_char': 237, 'form': 'function', 'end_char': 245}, {'start_char': 554, 'form': 'function', 'end_char': 562}, {'start_char': 651, 'form': 'function', 'end_char': 659}]",0.43187992325537294
+ASPECT,example,1,"[{'start_char': 92, 'form': 'example', 'end_char': 99}]",0.4244054195388796
+ASPECT,definition,1,"[{'start_char': 633, 'form': 'definition', 'end_char': 643}]",0.40341848349695786
+ASPECT,intro,2,"[{'start_char': 58, 'form': 'intro', 'end_char': 63}, {'start_char': 448, 'form': 'intro', 'end_char': 453}]",0.3660576394006303
+ASPECT,variable,1,"[{'start_char': 271, 'form': 'variable', 'end_char': 279}]",0.32758800016886
+ASPECT,mathematical function,1,"[{'start_char': 498, 'form': 'mathematical functions', 'end_char': 520}]",0.3212299822890907
+ASPECT,"graph of fig.~<a class=""flink",1,"[{'start_char': 402, 'form': 'graph of Fig.~<a class=""flink', 'end_char': 431}]",0.3127117897195203
+ASPECT,term,1,"[{'start_char': 479, 'form': 'terms', 'end_char': 484}]",0.3094886497998251
+ASPECT,signal,1,"[{'start_char': 0, 'form': 'Signals', 'end_char': 7}]",1.0
+ASPECT,signal,1,"[{'start_char': 0, 'form': 'Signals', 'end_char': 7}]",1.0
+ASPECT,sampling,1,"[{'start_char': 0, 'form': 'Sampling', 'end_char': 8}]",0.37885185528498566
+ASPECT,sampling,1,"[{'start_char': 0, 'form': 'Sampling', 'end_char': 8}]",0.37885185528498566
+ASPECT,period,1,"[{'start_char': 10, 'form': 'period', 'end_char': 16}]",0.29890129847813957
+ASPECT,independent variable,2,"[{'start_char': 73, 'form': 'independent variable', 'end_char': 93}, {'start_char': 170, 'form': 'independent variable', 'end_char': 190}]",0.415678641291639
+ASPECT,variable function,2,"[{'start_char': 110, 'form': 'variable function', 'end_char': 127}, {'start_char': 205, 'form': 'variable function', 'end_char': 222}]",0.41376845876179635
+ASPECT,square bracket,1,"[{'start_char': 133, 'form': 'square brackets', 'end_char': 148}]",0.32744747180561673
+ASPECT,sequence,1,"[{'start_char': 224, 'form': 'sequence', 'end_char': 232}]",0.28805582395034063
+ASPECT,parenthesis,1,"[{'start_char': 40, 'form': 'parentheses', 'end_char': 51}]",0.27220204015366173
+ASPECT,convention,1,"[{'start_char': 14, 'form': 'convention', 'end_char': 24}]",0.27220204015366173
+ASPECT,s[n]=s(nt_,1,"[{'start_char': 0, 'form': 's[n]=s(nT_s', 'end_char': 11}]",0.3172967888346072
+ASPECT,\{\dots,1,"[{'start_char': 0, 'form': '\\{\\dots', 'end_char': 7}]",0.2949870233223916
+ASPECT,\dots\,1,"[{'start_char': 26, 'form': '\\dots\\', 'end_char': 32}]",0.2949870233223916
+ASPECT,signal,2,"[{'start_char': 19, 'form': 'signals', 'end_char': 26}, {'start_char': 245, 'form': 'signal', 'end_char': 251}]",1.0
+ASPECT,time signal,3,"[{'start_char': 51, 'form': 'time signals', 'end_char': 63}, {'start_char': 334, 'form': 'time signal', 'end_char': 345}, {'start_char': 1674, 'form': 'time signal', 'end_char': 1685}]",0.5170429026619572
+ASPECT,"span class=""bold",1,"[{'start_char': 276, 'form': 'span class=""bold', 'end_char': 292}]",0.5077338888476739
+OPINION,spaced point,1,"[{'start_char': 368, 'form': 'spaced points', 'end_char': 381}]",0.45271066258602083
+ASPECT,function,4,"[{'start_char': 457, 'form': 'function', 'end_char': 465}, {'start_char': 982, 'form': 'function', 'end_char': 990}, {'start_char': 1241, 'form': 'function', 'end_char': 1249}, {'start_char': 1316, 'form': 'function', 'end_char': 1324}]",0.43187992325537294
+ASPECT,example,1,"[{'start_char': 1632, 'form': 'example', 'end_char': 1639}]",0.4244054195388796
+ASPECT,independent variable,1,"[{'start_char': 935, 'form': 'independent variable', 'end_char': 955}]",0.415678641291639
+ASPECT,variable function,2,"[{'start_char': 1071, 'form': 'variable function', 'end_char': 1088}, {'start_char': 1543, 'form': 'variable function', 'end_char': 1560}]",0.41376845876179635
+ASPECT,variable,3,"[{'start_char': 479, 'form': 'variable', 'end_char': 487}, {'start_char': 972, 'form': 'variable', 'end_char': 980}, {'start_char': 1048, 'form': 'variable', 'end_char': 1056}]",0.32758800016886
+ASPECT,square bracket,1,"[{'start_char': 996, 'form': 'square brackets', 'end_char': 1011}]",0.32744747180561673
+OPINION,taken signal sample,1,"[{'start_char': 153, 'form': 'Signal samples are taken', 'end_char': 177}]",0.6950627150587323
+ASPECT,time signal,1,"[{'start_char': 49, 'form': 'time signal', 'end_char': 60}]",0.5170429026619572
+ASPECT,chapter01,1,"[{'start_char': 0, 'form': 'Chapter01', 'end_char': 9}]",0.44709957435308756
+ASPECT,shaded region,1,"[{'start_char': 187, 'form': 'shaded region', 'end_char': 200}]",0.4441517837852933
+ASPECT,function,1,"[{'start_char': 119, 'form': 'function', 'end_char': 127}]",0.43187992325537294
+ASPECT,"region of fig.~<a class=""flink",1,"[{'start_char': 194, 'form': 'region of Fig.~<a class=""flink', 'end_char': 224}]",0.42468726778363414
+ASPECT,example,1,"[{'start_char': 26, 'form': 'Example', 'end_char': 33}]",0.4244054195388796
+ASPECT,art,1,"[{'start_char': 10, 'form': 'art', 'end_char': 13}]",0.422118104221869
+ASPECT,dimensional sequence,1,"[{'start_char': 95, 'form': 'dimensional sequence', 'end_char': 115}]",0.3816458772247377
+ASPECT,intro,1,"[{'start_char': 241, 'form': 'intro', 'end_char': 246}]",0.3660576394006303
+ASPECT,t_s=1/8,1,"[{'start_char': 0, 'form': 'T_s=1/8', 'end_char': 7}]",0.3172967888346072
+OPINION,taken signal sample,1,"[{'start_char': 353, 'form': 'Signal samples are taken', 'end_char': 377}]",0.6950627150587323
+ASPECT,time signal,1,"[{'start_char': 249, 'form': 'time signal', 'end_char': 260}]",0.5170429026619572
+ASPECT,"div class=""caption text",1,"[{'start_char': 183, 'form': 'div class=""caption text', 'end_char': 206}]",0.500790245621883
+ASPECT,"div class=""row clearboth",1,"[{'start_char': 1, 'form': 'div class=""row clearBoth', 'end_char': 25}]",0.500790245621883
+ASPECT,chapter01,1,"[{'start_char': 115, 'form': 'Chapter01', 'end_char': 124}]",0.44709957435308756
+ASPECT,shaded region,1,"[{'start_char': 387, 'form': 'shaded region', 'end_char': 400}]",0.4441517837852933
+ASPECT,"div class=""thumbnail",1,"[{'start_char': 39, 'form': 'div class=""thumbnail', 'end_char': 59}]",0.44398879795291046
+ASPECT,center text,1,"[{'start_char': 207, 'form': 'center text', 'end_char': 218}]",0.44398879795291046
+ASPECT,"img id=""fig",1,"[{'start_char': 75, 'form': 'img id=""fig', 'end_char': 86}]",0.44398879795291046
+OPINION,isolated sequence value,1,"[{'start_char': 755, 'form': 'isolated sequence values', 'end_char': 779}]",0.4406733524730362
+ASPECT,image,1,"[{'start_char': 0, 'form': 'Image', 'end_char': 5}]",0.43600170059782484
+ASPECT,image,1,"[{'start_char': 0, 'form': 'Image', 'end_char': 5}]",0.43600170059782484
+ASPECT,scale,1,"[{'start_char': 12, 'form': 'scale', 'end_char': 17}]",0.30219509881007434
+ASPECT,"p(x_0,y_0",1,"[{'start_char': 0, 'form': 'p(x_0,y_0', 'end_char': 9}]",0.3172967888346072
+ASPECT,"x_0,y_0",1,"[{'start_char': 1, 'form': 'x_0,y_0', 'end_char': 8}]",0.3172967888346072
+ASPECT,signal,3,"[{'start_char': 12, 'form': 'signals', 'end_char': 19}, {'start_char': 80, 'form': 'signals', 'end_char': 87}, {'start_char': 309, 'form': 'signal', 'end_char': 315}]",1.0
+ASPECT,"fig.~<a class=""flink",1,"[{'start_char': 528, 'form': 'Fig.~<a class=""flink', 'end_char': 548}]",0.46650079356881424
+ASPECT,image,2,"[{'start_char': 137, 'form': 'image', 'end_char': 142}, {'start_char': 690, 'form': 'image', 'end_char': 695}]",0.43600170059782484
+ASPECT,function,2,"[{'start_char': 266, 'form': 'function', 'end_char': 274}, {'start_char': 354, 'form': 'function', 'end_char': 362}]",0.43187992325537294
+ASPECT,example,2,"[{'start_char': 125, 'form': 'example', 'end_char': 132}, {'start_char': 464, 'form': 'example', 'end_char': 471}]",0.4244054195388796
+ASPECT,independent variable,1,"[{'start_char': 371, 'form': 'independent variables', 'end_char': 392}]",0.415678641291639
+ASPECT,spatial variable,1,"[{'start_char': 282, 'form': 'spatial variables', 'end_char': 299}]",0.3876237341951954
+ASPECT,pattern,3,"[{'start_char': 50, 'form': 'patterns', 'end_char': 58}, {'start_char': 109, 'form': 'patterns', 'end_char': 117}, {'start_char': 198, 'form': 'pattern', 'end_char': 205}]",0.32875957646212123
+ASPECT,shade of gray,1,"[{'start_char': 643, 'form': 'shade of gray', 'end_char': 656}]",0.29328784915982054
+ASPECT,case,1,"[{'start_char': 596, 'form': 'case', 'end_char': 600}]",0.2861963530168734
+ASPECT,signal,1,"[{'start_char': 0, 'form': 'Signals', 'end_char': 7}]",1.0
+ASPECT,signal,1,"[{'start_char': 33, 'form': 'signal', 'end_char': 39}]",1.0
+ASPECT,chapter01,1,"[{'start_char': 0, 'form': 'Chapter01', 'end_char': 9}]",0.44709957435308756
+ASPECT,function,1,"[{'start_char': 70, 'form': 'function', 'end_char': 78}]",0.43187992325537294
+ASPECT,example,1,"[{'start_char': 20, 'form': 'Example', 'end_char': 27}]",0.4244054195388796
+ASPECT,spatial variable,1,"[{'start_char': 86, 'form': 'spatial variables', 'end_char': 103}]",0.3876237341951954
+ASPECT,art/1f3,1,"[{'start_char': 10, 'form': 'art/1F3', 'end_char': 17}]",0.2839297039135971
+ASPECT,n]=p(m\delta_x,1,"[{'start_char': 4, 'form': 'n]=p(m\\Delta_x', 'end_char': 18}]",0.3053529235760897
+ASPECT,n\delta_y,1,"[{'start_char': 19, 'form': 'n\\Delta_y', 'end_char': 28}]",0.29724904136857433
+ASPECT,\delta_x,1,"[{'start_char': 0, 'form': '\\Delta_x', 'end_char': 8}]",0.3172967888346072
+ASPECT,signal,1,"[{'start_char': 236, 'form': 'signal', 'end_char': 242}]",1.0
+ASPECT,"div class=""row clearboth",1,"[{'start_char': 1, 'form': 'div class=""row clearBoth', 'end_char': 25}]",0.500790245621883
+ASPECT,"div class=""caption text",1,"[{'start_char': 180, 'form': 'div class=""caption text', 'end_char': 203}]",0.500790245621883
+ASPECT,"fig.~<a class=""flink",1,"[{'start_char': 373, 'form': 'Fig.~<a class=""flink', 'end_char': 393}]",0.46650079356881424
+ASPECT,chapter01,1,"[{'start_char': 118, 'form': 'Chapter01', 'end_char': 127}]",0.44709957435308756
+ASPECT,"div class=""thumbnail",1,"[{'start_char': 39, 'form': 'div class=""thumbnail', 'end_char': 59}]",0.44398879795291046
+ASPECT,center text,1,"[{'start_char': 204, 'form': 'center text', 'end_char': 215}]",0.44398879795291046
+ASPECT,"img id=""fig",1,"[{'start_char': 75, 'form': 'img id=""fig', 'end_char': 86}]",0.44398879795291046
+ASPECT,image,1,"[{'start_char': 350, 'form': 'Images', 'end_char': 356}]",0.43600170059782484
+ASPECT,function,1,"[{'start_char': 273, 'form': 'function', 'end_char': 281}]",0.43187992325537294
+ASPECT,signal,1,"[{'start_char': 0, 'form': 'Signals', 'end_char': 7}]",1.0
+ASPECT,video,1,"[{'start_char': 9, 'form': 'video', 'end_char': 14}]",0.33958687141975524
+OPINION,appropriate dimensional,1,"[{'start_char': 4, 'form': 'dimensional functions are appropriate mathematical', 'end_char': 54}]",0.45271066258602083
+ASPECT,image,2,"[{'start_char': 81, 'form': 'images', 'end_char': 87}, {'start_char': 164, 'form': 'images', 'end_char': 170}]",0.43600170059782484
+ASPECT,type of video system,1,"[{'start_char': 324, 'form': 'type of video system', 'end_char': 344}]",0.3416270538633386
+ASPECT,video,1,"[{'start_char': 138, 'form': 'videos', 'end_char': 144}]",0.33958687141975524
+ASPECT,variable,1,"[{'start_char': 371, 'form': 'variables', 'end_char': 380}]",0.32758800016886
+ASPECT,variable for time,1,"[{'start_char': 210, 'form': 'variable for time', 'end_char': 227}]",0.32152694006055826
+ASPECT,third independent variable,1,"[{'start_char': 192, 'form': 'third independent variable', 'end_char': 218}]",0.32152694006055826
+ASPECT,video signal,1,"[{'start_char': 250, 'form': 'Video signals', 'end_char': 263}]",0.30393934048312554
+ASPECT,dimensional function,1,"[{'start_char': 4, 'form': 'dimensional functions', 'end_char': 25}]",0.30393934048312554
+ASPECT,representation,1,"[{'start_char': 56, 'form': 'representations', 'end_char': 71}]",0.287985222317573
+ASPECT,signal,3,"[{'start_char': 72, 'form': 'signals', 'end_char': 79}, {'start_char': 359, 'form': 'signals', 'end_char': 366}, {'start_char': 745, 'form': 'signals', 'end_char': 752}]",1.0
+ASPECT,system,2,"[{'start_char': 230, 'form': 'systems', 'end_char': 237}, {'start_char': 757, 'form': 'systems', 'end_char': 764}]",0.9415417008387491
+OPINION,sampled image \(p[m,1,"[{'start_char': 541, 'form': 'sampled image \\(p[m', 'end_char': 560}]",0.43263062164216426
+ASPECT,function,2,"[{'start_char': 345, 'form': 'functions', 'end_char': 354}, {'start_char': 389, 'form': 'functions', 'end_char': 398}]",0.43187992325537294
+ASPECT,example,1,"[{'start_char': 456, 'form': 'example', 'end_char': 463}]",0.4244054195388796
+OPINION,important step,1,"[{'start_char': 680, 'form': 'important step', 'end_char': 694}]",0.3907390917187552
+ASPECT,step,1,"[{'start_char': 690, 'form': 'step', 'end_char': 694}]",0.3313542006476158
+ASPECT,mathematical function,1,"[{'start_char': 102, 'form': 'mathematical functions', 'end_char': 124}]",0.3212299822890907
+ASPECT,symbol for signals,1,"[{'start_char': 424, 'form': 'symbols for signals', 'end_char': 443}]",0.29559547047601437
+ASPECT,speech signal \(s(t)\)&#8221,1,"[{'start_char': 496, 'form': 'speech signal \\(s(t)\\)&#8221', 'end_char': 524}]",0.29559547047601437
+ASPECT,system,1,"[{'start_char': 0, 'form': 'Systems', 'end_char': 7}]",0.9415417008387491
+ASPECT,system,1,"[{'start_char': 0, 'form': 'Systems', 'end_char': 7}]",0.9415417008387491
+ASPECT,definition,1,"[{'start_char': 9, 'form': 'definition', 'end_char': 19}]",0.40341848349695786
+ASPECT,time system,1,"[{'start_char': 27, 'form': 'time system', 'end_char': 38}]",0.7994195466028304
+ASPECT,system,1,"[{'start_char': 0, 'form': 'System', 'end_char': 6}]",0.9415417008387491
+ASPECT,squarer,1,"[{'start_char': 9, 'form': 'squarer', 'end_char': 16}]",0.32401950994998807
+ASPECT,mathematical representation,1,"[{'start_char': 0, 'form': 'Mathematical Representation', 'end_char': 27}]",0.6416144244087119
+ASPECT,systems,1,"[{'start_char': 31, 'form': 'Systems', 'end_char': 38}]",0.31185091632649997
+ASPECT,\cal t,1,"[{'start_char': 1, 'form': '\\cal T', 'end_char': 7}]",0.45271066258602083
+ASPECT,\begin{align*}y(t)=,1,"[{'start_char': 0, 'form': '\\begin{align*}y(t)=', 'end_char': 19}]",0.3172967888346072
+ASPECT,x(t)]^2\end{align,1,"[{'start_char': 22, 'form': 'x(t)]^2\\end{align', 'end_char': 39}]",0.3172967888346072
+ASPECT,signal,3,"[{'start_char': 119, 'form': 'signals', 'end_char': 126}, {'start_char': 354, 'form': 'signal', 'end_char': 360}, {'start_char': 884, 'form': 'signal', 'end_char': 890}]",1.0
+ASPECT,system,5,"[{'start_char': 83, 'form': 'system', 'end_char': 89}, {'start_char': 621, 'form': 'system', 'end_char': 627}, {'start_char': 821, 'form': 'system', 'end_char': 827}, {'start_char': 929, 'form': 'system', 'end_char': 935}, {'start_char': 1156, 'form': 'system', 'end_char': 1162}]",0.9415417008387491
+ASPECT,time system,1,"[{'start_char': 324, 'form': 'time system', 'end_char': 335}]",0.7994195466028304
+ASPECT,mathematical representation,1,"[{'start_char': 4, 'form': 'Mathematical Representation', 'end_char': 31}]",0.6416144244087119
+OPINION,emphasized value,1,"[{'start_char': 1549, 'form': 'values are emphasized', 'end_char': 1570}]",0.45271066258602083
+ASPECT,image,1,"[{'start_char': 586, 'form': 'image', 'end_char': 591}]",0.43600170059782484
+ASPECT,"input of fig.~<a class=""flink",1,"[{'start_char': 1330, 'form': 'input of Fig.~<a class=""flink', 'end_char': 1359}]",0.4226817886335537
+ASPECT,intro,1,"[{'start_char': 1376, 'form': 'intro', 'end_char': 1381}]",0.3660576394006303
+ASPECT,squarer,1,"[{'start_char': 1313, 'form': 'squarer', 'end_char': 1320}]",0.32401950994998807
+ASPECT,output signal,3,"[{'start_char': 399, 'form': 'output signal', 'end_char': 412}, {'start_char': 842, 'form': 'output signal', 'end_char': 855}, {'start_char': 1491, 'form': 'output signal', 'end_char': 1504}]",0.32220516894666945
+ASPECT,time system,1,"[{'start_char': 11, 'form': 'time system', 'end_char': 22}]",0.7994195466028304
+ASPECT,system,1,"[{'start_char': 0, 'form': 'System', 'end_char': 6}]",0.9415417008387491
+ASPECT,system,1,"[{'start_char': 0, 'form': 'System', 'end_char': 6}]",0.9415417008387491
+ASPECT,\begin{align*}y[n,1,"[{'start_char': 0, 'form': '\\begin{align*}y[n', 'end_char': 17}]",0.2949870233223916
+ASPECT,x[n])^2\end{align,1,"[{'start_char': 22, 'form': 'x[n])^2\\end{align', 'end_char': 39}]",0.2949870233223916
+ASPECT,system,4,"[{'start_char': 254, 'form': 'system', 'end_char': 260}, {'start_char': 404, 'form': 'system', 'end_char': 410}, {'start_char': 676, 'form': 'system', 'end_char': 682}, {'start_char': 824, 'form': 'system', 'end_char': 830}]",0.9415417008387491
+ASPECT,time signal,2,"[{'start_char': 300, 'form': 'time signals', 'end_char': 312}, {'start_char': 701, 'form': 'time signals', 'end_char': 713}]",0.5170429026619572
+ASPECT,squarer system,2,"[{'start_char': 4, 'form': 'squarer system', 'end_char': 18}, {'start_char': 365, 'form': 'squarer system', 'end_char': 379}]",0.4694334517816688
+ASPECT,example,1,"[{'start_char': 169, 'form': 'example', 'end_char': 176}]",0.4244054195388796
+ASPECT,physical system,1,"[{'start_char': 329, 'form': 'physical system', 'end_char': 344}]",0.3278498059391581
+ASPECT,sequence of numbers,1,"[{'start_char': 716, 'form': 'sequences of numbers', 'end_char': 736}]",0.31799194549893683
+ASPECT,output,2,"[{'start_char': 278, 'form': 'output', 'end_char': 284}, {'start_char': 662, 'form': 'output', 'end_char': 668}]",0.31709093995991344
+ASPECT,"class=""glyphicon glyphicon",2,"[{'start_char': 86, 'form': 'class=""glyphicon glyphicon', 'end_char': 112}, {'start_char': 471, 'form': 'class=""glyphicon glyphicon', 'end_char': 497}]",0.31479985895732665
+ASPECT,"class=""flink bkeq",2,"[{'start_char': 33, 'form': 'class=""flink bkeq', 'end_char': 50}, {'start_char': 418, 'form': 'class=""flink bkeq', 'end_char': 435}]",0.31479985895732665
+ASPECT,input,2,"[{'start_char': 267, 'form': 'input', 'end_char': 272}, {'start_char': 652, 'form': 'input', 'end_char': 657}]",0.29188137507890416
+ASPECT,block diagram,1,"[{'start_char': 0, 'form': 'Block diagrams', 'end_char': 14}]",0.7815275143848937
+OPINION,defined squarer system,1,"[{'start_char': 161, 'form': 'squarer system is defined', 'end_char': 186}]",0.7145735835619301
+ASPECT,squarer system,2,"[{'start_char': 43, 'form': 'squarer system', 'end_char': 57}, {'start_char': 161, 'form': 'squarer system', 'end_char': 175}]",0.4694334517816688
+ASPECT,chapter01,1,"[{'start_char': 0, 'form': 'Chapter01', 'end_char': 9}]",0.44709957435308756
+ASPECT,"input of fig.~<a class=""flink",1,"[{'start_char': 82, 'form': 'input of Fig.~<a class=""flink', 'end_char': 111}]",0.4226817886335537
+ASPECT,art,1,"[{'start_char': 10, 'form': 'art', 'end_char': 13}]",0.422118104221869
+ASPECT,intro,1,"[{'start_char': 128, 'form': 'intro', 'end_char': 133}]",0.3660576394006303
+ASPECT,speech,1,"[{'start_char': 66, 'form': 'speech', 'end_char': 72}]",0.34945181183609386
+ASPECT,signal input,1,"[{'start_char': 75, 'form': 'signal input', 'end_char': 87}]",0.3375180747950905
+ASPECT,output,1,"[{'start_char': 31, 'form': 'Output', 'end_char': 37}]",0.31709093995991344
+ASPECT,equation,1,"[{'start_char': 196, 'form': 'equation', 'end_char': 204}]",0.28339653221248307
+ASPECT,\cal t}\,1,"[{'start_char': 1, 'form': '\\cal T}\\', 'end_char': 9}]",0.45271066258602083
+ASPECT,signal,2,"[{'start_char': 783, 'form': 'signals', 'end_char': 790}, {'start_char': 1060, 'form': 'signal', 'end_char': 1066}]",1.0
+ASPECT,system,4,"[{'start_char': 507, 'form': 'systems', 'end_char': 514}, {'start_char': 575, 'form': 'system', 'end_char': 581}, {'start_char': 730, 'form': 'system', 'end_char': 736}, {'start_char': 841, 'form': 'system', 'end_char': 847}]",0.9415417008387491
+ASPECT,block diagram,1,"[{'start_char': 885, 'form': 'block diagram', 'end_char': 898}]",0.7815275143848937
+OPINION,defined squarer system,1,"[{'start_char': 370, 'form': 'squarer system is defined', 'end_char': 395}]",0.7145735835619301
+OPINION,complex system,1,"[{'start_char': 833, 'form': 'complex system', 'end_char': 847}]",0.6623403790038245
+ASPECT,"span class=""bold",1,"[{'start_char': 617, 'form': 'span class=""bold', 'end_char': 633}]",0.5077338888476739
+ASPECT,"div class=""row clearboth",1,"[{'start_char': 1, 'form': 'div class=""row clearBoth', 'end_char': 25}]",0.500790245621883
+ASPECT,"div class=""caption text",1,"[{'start_char': 197, 'form': 'div class=""caption text', 'end_char': 220}]",0.500790245621883
+ASPECT,squarer system,2,"[{'start_char': 252, 'form': 'squarer system', 'end_char': 266}, {'start_char': 370, 'form': 'squarer system', 'end_char': 384}]",0.4694334517816688
+ASPECT,"fig.~<a class=""flink",1,"[{'start_char': 912, 'form': 'Fig.~<a class=""flink', 'end_char': 932}]",0.46650079356881424
+ASPECT,definition,1,"[{'start_char': 9, 'form': 'definition', 'end_char': 19}]",0.40341848349695786
+ASPECT,converter,1,"[{'start_char': 33, 'form': 'converter', 'end_char': 42}]",0.41321747145272664
+ASPECT,d converter,1,"[{'start_char': 5, 'form': 'D converter', 'end_char': 16}]",0.5884194574539753
+ASPECT,time system,1,"[{'start_char': 79, 'form': 'time system', 'end_char': 90}]",0.7994195466028304
+ASPECT,chapter01,1,"[{'start_char': 0, 'form': 'Chapter01', 'end_char': 9}]",0.44709957435308756
+ASPECT,art,1,"[{'start_char': 10, 'form': 'art', 'end_char': 13}]",0.422118104221869
+ASPECT,block diagram representation,1,"[{'start_char': 33, 'form': 'Block diagram representation', 'end_char': 61}]",0.3893992357989007
+ASPECT,ct_block_diagram,1,"[{'start_char': 14, 'form': 'CT_block_diagram', 'end_char': 30}]",0.2828281960539737
+ASPECT,\begin{align*}x[n,1,"[{'start_char': 0, 'form': '\\begin{align*}x[n', 'end_char': 17}]",0.2949870233223916
+ASPECT,x(nt_s)\end{align,1,"[{'start_char': 21, 'form': 'x(nT_s)\\end{align', 'end_char': 38}]",0.2949870233223916
+ASPECT,signal,1,"[{'start_char': 464, 'form': 'signals', 'end_char': 471}]",1.0
+ASPECT,system,5,"[{'start_char': 365, 'form': 'system', 'end_char': 371}, {'start_char': 579, 'form': 'system', 'end_char': 585}, {'start_char': 992, 'form': 'system', 'end_char': 998}, {'start_char': 1353, 'form': 'system', 'end_char': 1359}, {'start_char': 1402, 'form': 'system', 'end_char': 1408}]",0.9415417008387491
+ASPECT,time signal,2,"[{'start_char': 485, 'form': 'time signals', 'end_char': 497}, {'start_char': 615, 'form': 'time signal', 'end_char': 626}]",0.5170429026619572
+ASPECT,"span class=""bold",2,"[{'start_char': 530, 'form': 'span class=""bold', 'end_char': 546}, {'start_char': 1219, 'form': 'span class=""bold', 'end_char': 1235}]",0.5077338888476739
+ASPECT,"div class=""caption text",1,"[{'start_char': 200, 'form': 'div class=""caption text', 'end_char': 223}]",0.500790245621883
+ASPECT,"div class=""row clearboth",1,"[{'start_char': 1, 'form': 'div class=""row clearBoth', 'end_char': 25}]",0.500790245621883
+ASPECT,"fig.~<a class=""flink",1,"[{'start_char': 1051, 'form': 'Fig.~<a class=""flink', 'end_char': 1071}]",0.46650079356881424
+OPINION,suggested system,1,"[{'start_char': 365, 'form': 'system was suggested', 'end_char': 385}]",0.45271066258602083
+ASPECT,chapter01,1,"[{'start_char': 125, 'form': 'Chapter01', 'end_char': 134}]",0.44709957435308756
+ASPECT,"div class=""thumbnail",1,"[{'start_char': 39, 'form': 'div class=""thumbnail', 'end_char': 59}]",0.44398879795291046
+ASPECT,chapter01,1,"[{'start_char': 0, 'form': 'Chapter01', 'end_char': 9}]",0.44709957435308756
+ASPECT,art,1,"[{'start_char': 10, 'form': 'art', 'end_char': 13}]",0.422118104221869
+ASPECT,diagram representation,1,"[{'start_char': 40, 'form': 'diagram representation', 'end_char': 62}]",0.34004828003986753
+ASPECT,block,1,"[{'start_char': 34, 'form': 'Block', 'end_char': 39}]",0.2842493348866075
+ASPECT,sampler,1,"[{'start_char': 69, 'form': 'sampler', 'end_char': 76}]",0.27673833111799206
+ASPECT,c2d_block_diagram,1,"[{'start_char': 14, 'form': 'C2D_block_diagram', 'end_char': 31}]",0.27673833111799206
+ASPECT,"div class=""caption text",1,"[{'start_char': 195, 'form': 'div class=""caption text', 'end_char': 218}]",0.500790245621883
+ASPECT,"div class=""row clearboth",1,"[{'start_char': 1, 'form': 'div class=""row clearBoth', 'end_char': 25}]",0.500790245621883
+ASPECT,chapter01,1,"[{'start_char': 119, 'form': 'Chapter01', 'end_char': 128}]",0.44709957435308756
+ASPECT,"div class=""thumbnail",1,"[{'start_char': 39, 'form': 'div class=""thumbnail', 'end_char': 59}]",0.44398879795291046
+ASPECT,"img id=""fig",1,"[{'start_char': 75, 'form': 'img id=""fig', 'end_char': 86}]",0.44398879795291046
+ASPECT,center text,1,"[{'start_char': 219, 'form': 'center text', 'end_char': 230}]",0.44398879795291046
+ASPECT,art,1,"[{'start_char': 129, 'form': 'art', 'end_char': 132}]",0.422118104221869
+ASPECT,"muted"">block diagram representation",1,"[{'start_char': 231, 'form': 'muted"">Block diagram representation', 'end_char': 266}]",0.35886964585947545
+ASPECT,text-center,1,"[{'start_char': 214, 'form': 'text-center', 'end_char': 225}]",0.3141569175666875
+ASPECT,book4,1,"[{'start_char': 113, 'form': 'BOOK4', 'end_char': 118}]",0.3141569175666875

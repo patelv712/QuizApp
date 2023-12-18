@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a rest api to communicate with quizApp and kt model",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.gatech.edu/VIP-ITS/QuizApp-Spring-2022.git"
+  },
+  "author": "ckompella3",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:backgroundTint="@color/pastel_lime"
+    tools:context=".ResultsActivity">
+
+    <LinearLayout
+        android:id="@+id/resultslinearlayout"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/pastel_dark_green"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Results"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/overallScoreTextView"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/pastel_light_green"
+            android:backgroundTint="@color/pastel_light_green"
+            android:text="Great Job! You answered xx/yy questions correctly"
+            android:textAlignment="center"
+            android:textColor="@color/pastel_dark_green"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pastel_lime"
+            android:text="We recommend reviewing the following concepts:"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:background="@color/pastel_light_green"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="40dp"
+                android:background="@color/pastel_light_green"
+                android:text="skill 1\nskill 2\nskill 3"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/homePageButton"
+                android:layout_width="163dp"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/pastel_dark_green"
+                android:onClick="goToHome"
+                android:text="@string/home_title"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/saveResultsButton"
+                android:layout_width="163dp"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/pastel_dark_green"
+                android:onClick="saveResults"
+                android:text="@string/save_results"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/saveToggleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="These are your toggled questions: "
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

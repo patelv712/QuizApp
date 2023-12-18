@@ -1,0 +1,33 @@
+<form method="POST" action="">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Questions</title>
+        {% for user in res %}
+        <tr>
+            <td> {{user[0]}} </td>
+            <td> {{user[1]}} </td>
+            <td> {{user[2]}} </td>
+            <td> {{user[3]}} </td>
+        <td> {{user[4]}} </td>
+            <td> {{user[5]}} </td>
+            <td> {{user[6]}} </td>
+            <td> {{user[7]}} </td>
+        <td> {{user[8]}} </td>
+            <td> {{user[9]}} </td>
+            <td> {{user[10]}} </td>
+        
+        
+        </tr>
+        {% endfor %}
+    <br>
+        <button class name = "submit_button" type = "submit"value = "Back">Back</button>
+    
+    </head>
+    
+    </html>
+    
+    </form>
+    
+    

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pastel_lime"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:text="VIP ITS Quiz App"
+            android:textAlignment="center"
+            android:textSize="48sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/pastel_middle_green"
+            android:foregroundTint="@color/pastel_light_green"
+            android:onClick="goBackToQuestion"
+            android:textAlignment="center"
+            app:srcCompat="@mipmap/quiz_app_logo_foreground"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="343dp"
+            android:layout_height="318dp"
+            android:contextClickable="false"
+            android:translationX="35dp"
+            android:translationY="150dp"
+            android:visibility="visible"
+            app:cardBackgroundColor="#D8BBFB"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="false"
+            app:layout_anchor="@+id/cardView"
+            app:layout_anchorGravity="center_horizontal">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/pastel_dark_green"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="264dp"
+                        app:boxStrokeColor="@color/pastel_dark_green">
+
+                        <LinearLayout
+                            android:layout_width="334dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:id="@+id/hintTextField"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

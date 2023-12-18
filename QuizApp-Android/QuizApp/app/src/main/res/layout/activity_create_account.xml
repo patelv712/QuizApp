@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:backgroundTint="#2196F3"
+    android:backgroundTintMode="screen"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/create_new_account_title"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#2196F3"
+            android:gravity="center"
+            android:text="@string/create_new_account"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/pfp_block"
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:background="@color/pastel_lime"
+            android:backgroundTint="#2196F3"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/create_account_browse"
+                android:layout_width="126dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="10"
+                android:backgroundTint="@color/white"
+                android:text="@string/browse_files"
+                android:textColor="@color/black"
+                tools:ignore="TextContrastCheck" />
+
+            <LinearLayout
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/profile_picture_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="@string/profile_picture"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/profile_picture"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:adjustViewBounds="false"
+                    android:background="@color/white"
+                    android:contentDescription="@string/history_image"
+                    android:contextClickable="false"
+                    android:cropToPadding="false"
+                    app:srcCompat="@mipmap/quiz_app_logo_foreground"
+                    tools:ignore="ImageContrastCheck"
+                    tools:srcCompat="@mipmap/quiz_app_logo_foreground" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/create_Account_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/pastel_lime"
+                android:backgroundTint="#2196F3"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <EditText
+                    android:id="@+id/create_account_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="src_over"
+                    android:ems="10"
+                    android:hint="@string/full_name"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/black" />
+
+                <Space
+                    android:id="@+id/create_account_space3"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:id="@+id/birthdate_directions"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="#2196F3"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center"
+                    android:text="@string/select_birth_date"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black" />
+
+                <CalendarView
+                    android:id="@+id/birthdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:focusedMonthDateColor="@color/white"
+                    android:maxDate="12/31/2022"
+                    android:minDate="01/01/1970"
+                    android:padding="0dp"
+                    android:paddingStart="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="0dp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp"
+                    android:paddingBottom="0dp"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical" />
+
+                <Space
+                    android:id="@+id/create_account_space"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <EditText
+                    android:id="@+id/create_account_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="src_over"
+                    android:ems="10"
+                    android:hint="@string/email"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="48dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/black" />
+
+                <Space
+                    android:id="@+id/create_account_space0"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <EditText
+                    android:id="@+id/create_account_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="src_over"
+                    android:ems="10"
+                    android:hint="@string/new_username"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/black" />
+
+                <Space
+                    android:id="@+id/create_account_space1"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <EditText
+                    android:id="@+id/create_account_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="src_over"
+                    android:ems="10"
+                    android:hint="@string/new_password"
+                    android:importantForAutofill="no"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/black" />
+
+                <Space
+                    android:id="@+id/create_account_space2"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <EditText
+                    android:id="@+id/create_account_new_password_repeat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="src_over"
+                    android:ems="10"
+                    android:hint="@string/new_username_repeat"
+                    android:importantForAutofill="no"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/black" />
+
+                <Space
+                    android:id="@+id/create_account_space4"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <EditText
+                    android:id="@+id/create_account_school"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="src_over"
+                    android:ems="10"
+                    android:hint="@string/school"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="48dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/black" />
+
+                <Space
+                    android:id="@+id/create_account_button_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <Button
+                    android:id="@+id/create_account_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/white"
+                    android:contentDescription="@string/Submit"
+                    android:onClick="createAccount"
+                    android:text="@string/create_account"
+                    android:textColor="@color/black"
+                    tools:ignore="TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/create_account_login_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:onClick="BackToLogin"
+                    android:text="@string/login_button" />
+
+                <TextView
+                    android:id="@+id/login_tagline"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:minHeight="48dp"
+                    android:text="@string/login_tagline"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

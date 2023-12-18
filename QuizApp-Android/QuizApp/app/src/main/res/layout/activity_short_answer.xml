@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pastel_lime"
+    tools:context=".ShortAnswerActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="406dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/pastel_lime"
+            android:gravity="center"
+            android:text="@string/quiz_app_login_title"
+            android:textSize="48sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="416dp"
+        android:layout_height="267dp"
+        android:background="@color/pastel_lime"
+        android:backgroundTint="@color/pastel_lime"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/displayQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:background="@color/pastel_light_green"
+            android:text="@string/question_will_be_displayed_here"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="-2dp"
+            tools:layout_editor_absoluteY="312dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sine_graph"
+            android:contentDescription="@string/history_image" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="415dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/pastel_lime"
+        android:backgroundTint="@color/pastel_lime"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="-2dp"
+            tools:layout_editor_absoluteY="365dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/studentInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_answer_here"
+                tools:layout_editor_absoluteX="-2dp"
+                tools:layout_editor_absoluteY="365dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="407dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/pastel_lime"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <TextView
+            android:id="@+id/displayAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="53dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="217dp"
+        android:layout_height="228dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/pastel_lime"
+        android:backgroundTint="@color/pastel_lime"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <Button
+            android:id="@+id/submitButtonSA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/pastel_dark_green"
+            android:onClick="submitFunctionality"
+            android:text="@string/Submit" />
+
+        <Button
+            android:id="@+id/helpButtonSA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/pastel_dark_green"
+            android:onClick="goToHelp"
+            android:text="@string/help"
+            tools:layout_editor_absoluteX="400dp"
+            tools:layout_editor_absoluteY="601dp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/shortanswerswitch"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:text="@string/Review"
+            android:textColor="@color/black"
+            android:textOff="@string/review"
+            android:textOn="@string/flagged"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
