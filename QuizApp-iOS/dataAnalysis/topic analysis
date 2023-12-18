@@ -1,0 +1,14 @@
+# Most popular topics
+topic_counts = Counter(topics_attempted)
+most_popular_topics = topic_counts.most_common(3)
+
+# Least popular topics
+least_popular_topics = topic_counts.most_common()[:-4:-1]
+
+# Topic accuracy rate
+topic_accuracy_rates = {}
+for topic in topics_attempted:
+    num_attempts = topic_counts[topic]
+    num_correct = topic_correct_answers[topic]
+    accuracy_rate = num_correct / num_attempts
+    topic_accuracy_rates[topic] = accuracy_rate

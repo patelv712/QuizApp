@@ -1,0 +1,12 @@
+# Flashcard accuracy rate
+flashcards_attempted = [attempt['flashcard_id'] for attempt in flashcard_attempts]
+flashcard_accuracy_rates = {}
+for flashcard in flashcards_attempted:
+    num_attempts = flashcard_attempts[flashcard]
+    num_correct = flashcard_correct_answers[flashcard]
+    accuracy_rate = num_correct / num_attempts
+    flashcard_accuracy_rates[flashcard] = accuracy_rate
+
+# Average time before flipping flashcard
+total_flashcard_time = sum(flashcard_time)
+avg_time_before_flipping = total_flashcard_time / len(flashcards_attempted)
