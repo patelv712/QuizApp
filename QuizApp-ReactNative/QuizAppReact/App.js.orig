@@ -1,0 +1,37 @@
+import React from 'react';
+<<<<<<< HEAD:QuizAppReact/App.tsx
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import LoginPage from './LoginPage'; // Replace with the actual path to your LoginPage file
+import HomeScreen from './HomeScreen'; // Replace with the actual path to your HomeScreen file
+import { enableScreens } from 'react-native-screens';
+
+enableScreens();
+
+
+const Stack = createNativeStackNavigator();
+
+const App = () => {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Login">
+        <Stack.Screen name="Login" component={LoginPage} />
+        <Stack.Screen name="HomeScreen" component={HomeScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+=======
+import { StyleSheet, View } from 'react-native';
+
+// Import the LoginPage component
+import Settings from './Settings'; // Replace with the actual path to your LoginPage file
+
+const App = () => {
+  return (
+    <View style={styles.container}>
+      <Settings />
+    </View>
+>>>>>>> origin/SamarthParameswar:QuizAppReact/App.js
+  );
+};
+
+export default App;
